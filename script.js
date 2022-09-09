@@ -12,7 +12,7 @@ document.querySelector('#bt').addEventListener('click',()=>{
     let inputText = document.querySelector('#item');        //para efeito vermelho quando nao preenchido
     let inputNumber = document.querySelector('#valor');     //para efeito vermelho quando nao preenchido
 
-    let total = 0
+    let total = 0;
 
     if(produto == '' && valor == ''){
         alert('Por favor, preencha os campos.');
