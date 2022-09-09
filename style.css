@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    background-color: #3f91d9;
+    color: white;
+    line-height: 100px;
+}
+
+/*input*/
+
+#inputs{
+    text-align: center;
+}
+#inputs input{
+    width: 30%;
+    min-width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+#inputs #bt{
+    width: 200px;
+    color: white;
+    background-color: #3f91d9;
+    border-radius: 10px;
+    padding-left: 0;
+    cursor: pointer;
+}
+#inputs #bt:hover{
+    background-color: #0088ff;
+}
+#inputs #bt:active{
+    background-color: #0033ff;
+}
+
+/*produtos*/
+
+.layout{
+    width: 60%;
+    min-width: 400px;
+    margin: 50px auto;
+    border: 2px solid gray;
+    padding: 50px;
+}
+
+.layout .divproduto{
+    width: 45%;
+}
+.layout > div{
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    border-bottom: 1px solid gray;
+    padding: 0 15px;
+}
+.layout > .last{
+    text-align: right;
+    padding-left: 50px;
+}
+
+.layout:last-of-type{
+    width: 60%;
+    min-width: 400px;
+    margin-top: 150px;
+}
+
+
+
+.faltaPreencher{
+    border: 2px solid red;
+    border-radius: 5px;
+    
+}
+
+
+#divapagar{
+    width: 200px;
+    margin: auto;
+}
+#apagar{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(112, 28, 28);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.menos{
+    width: 20px; 
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
